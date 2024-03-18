@@ -7,21 +7,21 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #eee;
   padding: 0 16px;
+  background-color: #e0dfdc;
 }
 
 header {
-  background-color: #f5ba13;
+  background-color: hwb(0 17% 83%);
   margin: auto -16px;
   padding: 16px 32px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 20px 0 hsl(253, 100%, 46%);
 }
 
 header h1 {
   color: #fff;
-  font-family: "McLaren", cursive;
-  font-weight: 200;
+  font-family: cursive;
+  font-weight: 100;
 }
 
 footer {
@@ -75,6 +75,7 @@ form {
   padding: 15px;
   border-radius: 7px;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
+  box-shadow: 0 0 20px 0 hsl(253, 100%, 46%);
 }
 form input,
 form textarea {
@@ -90,7 +91,7 @@ form button {
   position: absolute;
   right: 18px;
   bottom: -18px;
-  background: #f5ba13;
+  background:  hsl(253, 100%, 46%);
   color: #fff;
   border: none;
   border-radius: 50%;

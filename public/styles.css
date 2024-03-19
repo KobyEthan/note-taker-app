@@ -8,33 +8,26 @@ html {
 }
 body {
   padding: 0 16px;
-  background-color: #e0dfdc;
+  background-image: url("https://www.transparenttextures.com/patterns/notebook.png");
+  background-color: #ececec;
 }
 
 header {
-  background-color: hwb(0 17% 83%);
+  background-color: #1c1c1c;
   margin: auto -16px;
   padding: 16px 32px;
-  box-shadow: 0 0 20px 0 hsl(253, 100%, 46%);
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0);
 }
-
+.not-icon{
+  color: #fff;
+}
 header h1 {
   color: #fff;
   font-family: cursive;
   font-weight: 100;
+  display: inline;
 }
 
-footer {
-  position: absolute;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
-}
-
-footer p {
-  color: #ccc;
-}
 .note {
   background: #fff;
   border-radius: 7px;
@@ -59,7 +52,7 @@ footer p {
   position: relative;
   float: right;
   margin-right: 10px;
-  color: #f5ba13;
+  color: #1c1c1c;
   border: none;
   width: 36px;
   height: 36px;
@@ -67,18 +60,17 @@ footer p {
   outline: none;
 }
 
-form {
+form.note-form {
   position: relative;
   width: 480px;
   margin: 30px auto 20px auto;
   background: #fff;
   padding: 15px;
   border-radius: 7px;
-  box-shadow: 0 1px 5px rgb(138, 137, 137);
-  box-shadow: 0 0 20px 0 hsl(253, 100%, 46%);
+  box-shadow: 0 5px 5px black
 }
-form input,
-form textarea {
+form.note-form input,
+form.note-form textarea {
   width: 100%;
   border: none;
   padding: 4px;
@@ -87,11 +79,11 @@ form textarea {
   font-family: inherit;
   resize: none;
 }
-form button {
+form.note-form button {
   position: absolute;
   right: 18px;
   bottom: -18px;
-  background:  hsl(253, 100%, 46%);
+  background:  #1c1c1c;
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -100,4 +92,16 @@ form button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #000000;
 }
